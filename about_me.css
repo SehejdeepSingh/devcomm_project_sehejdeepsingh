@@ -1,0 +1,43 @@
+body{
+    font-family: 'Barlow Condensed';
+    background-image: url(back_me.jpeg); 
+    background-size: cover;
+    font-weight:bold; 
+    font-family:'Barlow Condensed';
+}
+h1{
+    font-size: 80px;
+    margin-left:50vw; 
+    color:red;
+    text-align: center;
+    font-family: 'Barlow Condensed'
+}
+div{
+    font-family: 'Barlow Condensed';
+    font-size: 40px;
+    color:black;
+    width:50%; 
+    text-align:center;
+    margin-left: 50%; 
+    font-weight: bold;
+}
+
+@media(max-width:400px){
+    body{
+        /* background-image: none; */
+        background-image: url(meedit.jpeg);
+        background-size: cover;
+    }
+    h1{
+        font-size: 30px;
+        margin-right: 0px;
+        margin-left: 50vw;
+    }
+    div{
+        font-size: 25px;
+        background-size: cover;
+        margin-right: 0px;
+        margin-left: 50vw;
+        color:black;
+    }
+}

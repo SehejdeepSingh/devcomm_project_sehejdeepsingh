@@ -1,0 +1,25 @@
+body{
+    background-color: blanchedalmond; 
+    color: red;
+    font-weight:bold; 
+    font-family:'Barlow Condensed';
+}
+h1{
+    color:red; 
+    font-size: 80px;
+}
+li{
+    font-size: 60px; 
+    margin-left:20px;
+}
+
+@media(max-width:700px){
+    h1{
+        font-size: 40px;
+        color: red;
+        font: 'Barlow Condensed';
+    }
+    li{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,199 @@
+body{
+    background-color: rgb(233, 196, 106);
+    background-image: url("wallpaper2.jpg");
+    background-size: cover;
+    font-family: 'Barlow Condensed' ;
+    /* text-align: center;  */
+}
+
+.boxes{
+    height:300px;
+    width:500px;
+    background-color:rgb(63, 164, 69);
+    color:white;
+    text-align: left;
+    /* margin-bottom: 20px; */
+    display:inline-block;
+    /* margin-right: 10px; ; */
+    border: 10px solid rgb(255,0,110);
+    transition: all 1s ease-in;
+    font-size: 65px;
+    font-family: 'Barlow Condensed' ;
+    font-weight: bold;
+    padding-left:10px;
+    padding-right:10px;
+}
+h1{
+    font-size:70px  ;
+    background-color: rgb(33,158,188);
+    color: white;
+    text-align: center;
+    border: 10px solid rgb(255,0,110);
+}
+.bigbox{
+    height: 300px;
+    width:1000px;
+    background-color: white;
+    margin-left: 15vw;
+    margin-right: 15vw;    
+    /* width:50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes:hover{
+    transform: scale(1.25);
+
+}
+
+#box1{
+    background-image: url("my_photo.jpeg");
+    background-size:cover;
+    background-color: rgb(255, 183, 3);
+}
+
+#box2{
+    /* background-image: url("piece.png"); */
+    /* background-size: cover; */
+    width: 600px;
+    color:white;
+    background-color: rgb(7,59,76);
+    /* padding-top: 15px;    */
+
+}
+
+#box3{
+    background-color: rgb(255, 183, 3);
+    width: 520px;
+}
+
+
+#box4{
+    font-size: 65px;
+    /* background-image: url("box4.jpg"); */
+    background-size: cover;
+    width:600px;
+    background-color: rgb(7,59,76);
+}
+
+#box5{
+    width: 470px;
+    background-color: rgb(255, 183, 3);
+    /* background-image: url("box5.jpg"); */
+    background-size: cover;
+}
+#box6{
+    width:350px ;
+    background-color: rgb(7,59,76);
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+footer{
+    background-color: rgb(33,158,188); 
+    border: 10px solid rgb(255,0,110);
+    font: 'Barlow Condensed';
+    font-size: 55px;
+    color: white; 
+    margin-top: 40px;
+    text-align: center;
+}
+
+@media(max-width:400px){
+    body{
+        font-size: 10px;
+    }
+    .bigbox{
+        
+        height: 70px;
+        width:400px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0px;
+        /* justify-content: center; */
+        /* align-items: center; */
+        background-size: cover;
+        /* margin-left: 10vw; */
+        /* margin-right: 10px; */
+        /* justify-content: center; */
+        /* margin-right: 30px; */
+        
+        
+    }
+    .boxes{
+        height:60px;
+        width:60px;
+        background-color:rgb(63, 164, 69);
+        color:white;
+        text-align: left;
+        /* margin-bottom: 20px; */
+        display:inline-block;
+        /* margin-right: 10px; ; */
+        border: 10px solid rgb(255,0,110);
+        transition: all 1s ease-in;
+        font-size: 25px;
+        font-family: 'Barlow Condensed' ;
+        font-weight: bold;
+        /* padding-left:10px;
+        padding-right:10px; */
+    }
+    h1{
+        font-size:30px  ;
+        /* width: 100vw; */
+        background-color: rgb(33,158,188);
+        color: white;
+        text-align: center;
+        /* margin-left: 25vw; */
+        /* margin-right: 25vw; */
+        border: 10px solid rgb(255,0,110);
+    }
+    #box1{
+        background-image: url("my_photo.jpeg");
+        background-size:cover;
+        background-color: rgb(255, 183, 3);
+    }
+    
+    #box2{
+        /* background-image: url("piece.png"); */
+        /* background-size: cover; */
+        width: 600px;
+        color:white;
+        background-color: rgb(7,59,76);
+        /* padding-top: 15px;    */
+    
+    }
+    
+    #box3{
+        background-color: rgb(255, 183, 3);
+        /* width: 520px; */
+    }
+    
+    
+    #box4{
+        font-size: 20px;
+        /* background-image: url("box4.jpg"); */
+        background-size: cover;
+        /* width:600px; */
+        background-color: rgb(7,59,76);
+    }
+    
+    #box5{
+        /* width: 470px; */
+        background-color: rgb(255, 183, 3);
+        /* background-image: url("box5.jpg"); */
+        background-size: cover;
+    }
+    #box6{
+        /* width:350px ; */
+        background-color: rgb(7,59,76);
+    }
+    footer{
+        /* width: 100vw; */
+        font-size: 30px;
+        /* margin-left: 25vw;
+        margin-right: 25vw; */
+    }
+}
